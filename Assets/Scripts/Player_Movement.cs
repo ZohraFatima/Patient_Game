@@ -29,7 +29,8 @@ public class Player_Movement : MonoBehaviour
     {
         
 
-        if (Input.GetMouseButtonDown(0))
+      
+       if (Input.GetMouseButton(0))
         {
             // Convert mouse position to world coordinates
             Debug.Log("clicked");
